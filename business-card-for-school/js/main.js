@@ -40,10 +40,11 @@
     });
 
 
-    // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
-        time: 100
-    });
+        // Facts counter
+        $('[data-toggle="counter-up"]').counterUp({
+            delay: 10,
+            time: 3000
+        });
 
 
     // Testimonials carousel
